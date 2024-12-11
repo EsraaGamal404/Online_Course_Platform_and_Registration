@@ -79,6 +79,7 @@ nav ul li a{
   .typs2 img{
     width: 340px;
   }
+ 
 header nav{
   position: relative;
 }
@@ -296,11 +297,12 @@ flex-wrap: wrap;
   flex-direction: column;
   gap: 20px;
 }
-.Explore h2{
+.Explore h2,.courses h2{
   text-align: center;
 font-size: 40px;
 font-weight: 700;
 line-height: 48px;
+padding: 20px;
 }
 .typs h5,.typs2 h5{
 font-size: 16px;
@@ -312,7 +314,7 @@ font-size: 20px;
 font-weight: 500;
 padding: 0 5px;
 }
-.typs,.typs2{
+.typs,.typs2,.card{
   border: 1px solid #0000001A;
   border-radius: 6px;
   width: fit-content;
@@ -322,4 +324,10 @@ padding: 0 5px;
   grid-template-columns: repeat(auto-fill,minmax(400px,1fr));
   gap: 20px;
   padding-left: 60px;
+}
+.card{
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  gap: 10px;
 }
