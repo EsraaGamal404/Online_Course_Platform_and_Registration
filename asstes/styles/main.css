@@ -58,6 +58,8 @@ header .container{
   font-size: 28px;
   font-weight: 500;
   color: #000;
+  display: flex;
+  gap: 10px;
 }
 .menu{
   color: #000;
